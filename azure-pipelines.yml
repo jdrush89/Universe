@@ -1,0 +1,40 @@
+ # Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger: 
+- master
+
+pr:
+- master
+
+resources:
+  repositories:
+  - repository: self
+    ref: 'refs/heads/master'
+  - repository: sources
+    type: github
+    name: jdrush89/azure-devops-ui
+    endpoint: p1
+    ref: 'refs/heads/master'
+    pr:
+     branches:
+      include:
+       - master
+  - repository: scripts
+    type: github
+    name: jdrush89/Card-Game
+    endpoint: p2
+    ref: 'refs/heads/master'
+
+jobs:
+- job: multirepo
+  pool: 'default'
+  steps:
+  - checkout: self
+    clean: true
+    path: yaml
+  - checkout: sources
+    clean: true
+    path: src
