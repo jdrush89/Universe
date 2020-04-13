@@ -17,6 +17,7 @@ resources:
     type: github
     name: jdrush89/azure-devops-ui
     ref: 'refs/heads/master'
+    endpoint: JoshGithub
     pr:
      branches:
       include:
@@ -25,6 +26,7 @@ resources:
     type: github
     name: jdrush89/Card-Game
     ref: 'refs/heads/master'
+    endpoint: JoshGithub
 
 jobs:
 - job: multirepo
