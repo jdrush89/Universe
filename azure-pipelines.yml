@@ -13,15 +13,6 @@ resources:
   repositories:
   - repository: self
     ref: 'refs/heads/master'
-  - repository: sources
-    type: github
-    name: jdrush89/azure-devops-ui
-    ref: 'refs/heads/master'
-    endpoint: JoshGithub
-    pr:
-     branches:
-      include:
-       - master
   - repository: scripts
     type: github
     name: jdrush89/Card-Game
@@ -35,6 +26,6 @@ jobs:
   - checkout: self
     clean: true
     path: yaml
-  - checkout: sources
+  - checkout: scripts
     clean: true
     path: src
