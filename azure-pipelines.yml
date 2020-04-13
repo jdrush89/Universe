@@ -16,7 +16,6 @@ resources:
   - repository: sources
     type: github
     name: jdrush89/azure-devops-ui
-    endpoint: p1
     ref: 'refs/heads/master'
     pr:
      branches:
@@ -25,7 +24,6 @@ resources:
   - repository: scripts
     type: github
     name: jdrush89/Card-Game
-    endpoint: p2
     ref: 'refs/heads/master'
 
 jobs:
