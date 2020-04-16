@@ -20,7 +20,7 @@ resources:
     endpoint: JoshGithub
   - repository: sources
     type: github
-    name: jdrush89/azure-devops-ui
+    name: jdrush89/Bindisk
     ref: 'refs/heads/master'
     endpoint: JoshGithub
 
@@ -32,5 +32,8 @@ jobs:
     clean: true
     path: yaml
   - checkout: scripts
+    clean: true
+    path: src
+  - checkout: sources
     clean: true
     path: src
