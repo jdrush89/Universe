@@ -18,6 +18,11 @@ resources:
     name: jdrush89/Card-Game
     ref: 'refs/heads/master'
     endpoint: JoshGithub
+  - repository: sources
+    type: github
+    name: jdrush89/azure-devops-ui
+    ref: 'refs/heads/master'
+    endpoint: JoshGithub
 
 jobs:
 - job: multirepo
