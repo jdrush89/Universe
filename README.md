@@ -4,7 +4,7 @@
 
 Fast. Compiled to native binary for maximum performance.
 
-Reliable. Does not rely on garbage collector, no performance degradation.
+Reliable. Does not rely on garbage collector, no performance degradation. rer
 
 Secure. Provides read-only access to files, eliminating most of the attacks.
 
