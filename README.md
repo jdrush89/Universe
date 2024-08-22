@@ -52,6 +52,9 @@ Follow the [Rust code of conduct](https://www.rust-lang.org/policies/code-of-con
 ## Donations
 [PayPal](https://www.paypal.com/donate/?hosted_button_id=7J69SYZWSP6HJ) page to send donations, so I can buy some whole plant food, or open vinyl pressing facility or spend my time snowboarding, whatever.
 
+![hadron-full-with-terminal](https://github.com/user-attachments/assets/59b55596-cbc7-43f8-97ec-ea8415928704)
+
+
 ## Links
 1. [Rust TLS Server](https://github.com/bohdaq/rust-tls-server)
 1. [http-to-https-letsencrypt](https://github.com/bohdaq/http-to-https-letsencrypt)
