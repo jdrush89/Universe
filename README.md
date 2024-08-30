@@ -2,7 +2,7 @@
 
 This project is a basic React application that displays an index page. It serves as a starting point for further development and exploration of React and its capabilities.
 
-## Getting Started
+## Getting Startedd
 
 To run this React app locally, follow these steps:
 
