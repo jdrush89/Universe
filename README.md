@@ -1,4 +1,4 @@
-# Universe React App 2
+# Universe React App 3
 
 This project is a basic React application that displays an index page. It serves as a starting point for further development and exploration of React and its capabilities.
 
