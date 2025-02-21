@@ -61,3 +61,14 @@ Follow the [Rust code of conduct](https://www.rust-lang.org/policies/code-of-con
 1. [Rust Web Framework](https://github.com/bohdaq/rust-web-framework/)
 1. [crypto-ext](https://github.com/bohdaq/crypto-ext/)
 1. [file-ext](https://github.com/bohdaq/file-ext/)
+
+```mermaid
+graph TD
+    A[Start] --> B{Is it working?}
+    B -- Yes --> C[Continue]
+    B -- No --> D{Can it be fixed?}
+    D -- Yes --> E[Fix it]
+    D -- No --> F[Seek help]
+    F --> G[End]
+    E --> C
+```
