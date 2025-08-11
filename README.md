@@ -4,7 +4,8 @@ This project is a basic React application that displays an index page. It serves
 
 ## Getting Starteddv
 
-To run this React app locally, follow these steps:
+on garbage collector, no performance degradation. rer
+
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory in your terminal.
@@ -31,4 +32,3 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
